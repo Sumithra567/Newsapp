@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10KNewsApp</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav class="nav-container">
+        <h1 class="logo">10KNewsApp</h1>
+        <input type="search" class="search" id="searchInput" placeholder="Enter search">
+
+    </nav>
+    <div id="newsContainer" class="cards">
+        <div id="noData" class="no-data" hidden>
+            <h1>No Data Found</h1>
+        </div>
+    </div>
+    <div id="loading" class="loading-overlay" hidden>
+        <!-- <h1 id="loading">Loading.....</h1> -->
+         <div class="spinner"></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
